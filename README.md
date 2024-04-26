@@ -3,7 +3,9 @@ Kubesense: A Cognitive Framework for revolutionizing kubernetes management
 
 # Usage
 git clone https://github.com/Malitha08/Kubesense-FYP.git
+
 cd GUI
+
 python newui.py
 
 # Achitecture
