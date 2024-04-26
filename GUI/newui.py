@@ -7,8 +7,8 @@ from DatasetCreator import DatasetCreator
 from MultiModelCommandGenerator import KubesenseGenerator
 from driver import KubeDriver
 
-customtkinter.set_appearance_mode("System")  # Modes: "System" (standard), "Dark", "Light"
-customtkinter.set_default_color_theme("blue")  # Themes: "blue" (standard), "green", "dark-blue"
+customtkinter.set_appearance_mode("System")
+customtkinter.set_default_color_theme("blue")
 
 
 class WelcomeScreen(tk.Tk):
@@ -54,7 +54,6 @@ class WelcomeScreen(tk.Tk):
 
     def login(self):
         # Perform authentication here
-        # For demonstration, let's check if the entered password is "password"
         entered_auth_login = self.password_entry.get()
         if entered_auth_login == "gcloud container clusters get-credentials cluster-fyp --zone us-central1-c --project kubesense":
             self.main_screen.show()
@@ -178,9 +177,6 @@ class App(customtkinter.CTk):
         self.output_textbox.insert(tkinter.END, generated_command)
 
     def process_text(self, text):
-        # Placeholder for processing logic
-        # Here you would pass the text through your other model and get the processed output
-        # For demonstration purposes, let's just return the input text reversed
         return text[::-1]
 
     def open_input_dialog_event(self):

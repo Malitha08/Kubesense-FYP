@@ -1,33 +1,3 @@
-# import subprocess
-#
-# def execute_command(command):
-#     try:
-#         # Execute the command in a shell and capture the output
-#         result = subprocess.run(command, shell=True, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-#
-#         # Decode the stdout and stderr bytes to strings
-#         output_stdout = result.stdout.decode('utf-8')
-#         output_stderr = result.stderr.decode('utf-8')
-#
-#         combined = output_stdout + "\n" + output_stderr
-#
-#         return combined
-#     except subprocess.CalledProcessError as e:
-#         return f"Error: {e}"
-#
-# def main():
-#     # Activate the virtual environment and then run subsequent commands within the same process
-#     kube = "kubectl get pods"
-#     command = (f"call C:/Users/acer/PycharmProjects/CustomTkinter-master/Scripts/activate.bat && gcloud container clusters get-credentials cluster-fyp --zone us-central1-c --project kubesense && {kube}")
-#     combined = execute_command(command)
-#
-#     print('Result', combined)
-#
-# if __name__ == "__main__":
-#     main()
-
-
-
 from DatasetCreator import DatasetCreator
 from MultiModelCommandGenerator import KubesenseGenerator
 from driver import KubeDriver
