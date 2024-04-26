@@ -12,14 +12,14 @@ pip install -r requirements.txt
 
 # Cloning and Setting Up the framework
 ```
-git clone https://github.com/Malitha08/Kubesense-FYP.git
-fetch the gcloud auth login to the desired K8s Cluster example: gcloud container clusters get-credentials [clusterName] --zone us-central1-c --project [projectName]
-Insert this gcloud auth login to the login function in newui.py
-Run the auth login command in your terminal
-fine-tuned model directory link: https://drive.google.com/file/d/1468HEgexg9fpkJbbnGrzGmnXyoxcMaQr/view?usp=sharing
-Download the fine_tuned_bart_model.pth file and insert it into llm_bart_model directory
-cd GUI
-Run newui.py -> python newui.py
+- git clone https://github.com/Malitha08/Kubesense-FYP.git
+- fetch the gcloud auth login to the desired K8s Cluster example: gcloud container clusters get-credentials [clusterName] --zone us-central1-c --project [projectName]
+- Insert this gcloud auth login to the login function in newui.py
+- Run the auth login command in your terminal
+- fine-tuned model directory link: https://drive.google.com/file/d/1468HEgexg9fpkJbbnGrzGmnXyoxcMaQr/view?usp=sharing
+- Download the fine_tuned_bart_model.pth file and insert it into llm_bart_model directory
+- cd GUI
+- Run newui.py -> python newui.py
 ```
 
 # Achitecture
