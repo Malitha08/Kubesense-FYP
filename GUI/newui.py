@@ -52,6 +52,7 @@ class WelcomeScreen(tk.Tk):
         # Set the window position
         self.geometry("+{}+{}".format(x, y))
 
+    # change the gcloud_auth login when changing clusters
     def login(self):
         # Perform authentication here
         entered_auth_login = self.password_entry.get()
