@@ -3,6 +3,8 @@ Kubesense: A Cognitive Framework for revolutionizing kubernetes management
 
 GitHub: https://github.com/Malitha08/Kubesense-FYP
 
+Demo Video: https://drive.google.com/file/d/1VW41KNjAk6jnImUA-I3HoW-uLOqEszp9/view?usp=sharing
+
 Kubernetes, being a container orchestration and management system has been gaining popularity as the sector standard owing to the many appealing features, scalability, and an active ecosystem. Kubernetes is one of the first open-source projects of the Google company and its main aim is to supply a platform-agnostic solution ideal for the automatic deployment, scaling up, and management of containerized applications in a consistent manner. Effective administration of Kubernetes clusters is a challenge that needs to be overcome because of the complexity of the supporting infrastructure and the distinct operations needed for proper cluster administration. In order for an individual to operate on a Kubernetes cluster, an adequate level of experience of working with kubectl is required. 
 In this thesis, the author proposes a novel approach to Kubernetes cluster management leveraging natural language understanding (NLU) techniques.  Kubesense, a Kubernetes management tool capable of interpreting user queries in plain natural language and generating corresponding kubectl commands and executing and performing cluster operations is introduced. The tool comprises of a large language model (LLM) for natural language processing tasks coupled with a novel multi-model approach, enabling seamless interaction with the cluster via the Kubernetes API through natural language human prompts.
 
