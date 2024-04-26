@@ -1,8 +1,8 @@
 # from transformers import BertTokenizer, BertModel
 # from transformers import RobertaTokenizer, RobertaModel
 # import torch
-from Kubesense.GUI.DatasetCreator import DatasetCreator
-from Kubesense.GUI.MultiModelCommandGenerator import KubesenseGenerator
+from DatasetCreator import DatasetCreator
+from MultiModelCommandGenerator import KubesenseGenerator
 
 
 file_path = 'C:/Users/acer/Desktop/(DS and AI) Lectures/4th Year/CM4605-Individual Research Project/kubesense/Kubesense-FYP/Kubesense/Dataset/updted_data_with_class.json'

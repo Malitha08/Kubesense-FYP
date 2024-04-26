@@ -3,9 +3,9 @@ import tkinter as tk
 from tkinter import ttk
 import tkinter.messagebox
 import customtkinter
-from Kubesense.GUI.DatasetCreator import DatasetCreator
-from Kubesense.GUI.MultiModelCommandGenerator import KubesenseGenerator
-from Kubesense.GUI.driver import KubeDriver
+from DatasetCreator import DatasetCreator
+from MultiModelCommandGenerator import KubesenseGenerator
+from driver import KubeDriver
 
 customtkinter.set_appearance_mode("System")  # Modes: "System" (standard), "Dark", "Light"
 customtkinter.set_default_color_theme("blue")  # Themes: "blue" (standard), "green", "dark-blue"
